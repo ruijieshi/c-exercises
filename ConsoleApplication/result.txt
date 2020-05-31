@@ -1,0 +1,2 @@
+a-b 10 20 2 occurs 1 times 
+c-d 5 15 3 occurs 1 times 
