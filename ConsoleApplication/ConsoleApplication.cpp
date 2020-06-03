@@ -6,6 +6,8 @@
 #include <string>
 #include "Sales_item.h"
 
+//#define DEBUG
+
 using namespace std;
 
 //2.39
@@ -76,7 +78,14 @@ int main()
 	int null = 0;
 	cout << null << endl;
 
+	//2.42
+	#ifdef DEBUG
+	cout << "Now it is in debug mode" << endl;
+	#endif
 
+	#ifndef DEBUG
+	cout << "Now it is not in debug mode" << endl;
+	#endif
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
