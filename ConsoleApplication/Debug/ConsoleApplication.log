@@ -1,2 +1,3 @@
-﻿  ConsoleApplication.cpp
+﻿  chapter3.cpp
+D:\Git\ConsoleApplication\ConsoleApplication\chapter3.cpp(72,20): warning C4018: '<': signed/unsigned mismatch
   ConsoleApplication.vcxproj -> D:\Git\ConsoleApplication\Debug\ConsoleApplication.exe
