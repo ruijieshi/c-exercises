@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 //#define DEBUG
 
@@ -50,5 +51,26 @@ int main() {
 	//}
 	//cout << result << endl;
 
+	// 3.14
+	//vector<int> inputs;
+	//int input = 0;
+	//while (cin >> input) {
+	//	inputs.push_back(input);
+	//}
+
+	//for (int i = 0; i < inputs.size(); i++) {
+	//	cout << inputs.at(i) << endl;
+	//}
+
+	// 3.15
+	vector<string> stringsVec;
+	string stringsInput = "";
+	while (cin >> stringsInput) {
+		stringsVec.push_back(stringsInput);
+	}
+
+	for (int i = 0; i < stringsVec.size(); i++) {
+		cout << stringsVec.at(i) << endl;
+	}
 
 }
