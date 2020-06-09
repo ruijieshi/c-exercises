@@ -1,4 +1,0 @@
-﻿  chapter3.cpp
-D:\Git\ConsoleApplication\ConsoleApplication\chapter3.cpp(72,20): warning C4018: '<': signed/unsigned mismatch
-  LINK : D:\Git\ConsoleApplication\Debug\ConsoleApplication.exe not found or not built by the last incremental link; performing full link
-  ConsoleApplication.vcxproj -> D:\Git\ConsoleApplication\Debug\ConsoleApplication.exe
