@@ -63,7 +63,7 @@ int main() {
 	//}
 
 	// 3.15
-	vector<string> stringsVec;
+	/*vector<string> stringsVec;
 	string stringsInput = "";
 	while (cin >> stringsInput) {
 		stringsVec.push_back(stringsInput);
@@ -71,6 +71,19 @@ int main() {
 
 	for (int i = 0; i < stringsVec.size(); i++) {
 		cout << stringsVec.at(i) << endl;
-	}
+	}*/
 
+	// 3.19
+	/*vector<int> a(3, 42);
+	vector<int> b{ 42, 42, 42 };
+	vector<int> c = { 42, 42, 42 };*/
+
+	//3.23
+	vector<int> a = { 1,2,3,4,5 };
+	for (auto i = a.begin(); i != a.end(); ++i) {
+		*i *= *i;
+	}
+	for (auto i = a.begin(); i != a.end(); ++i) {
+		cout << *i << endl;
+	}
 }
